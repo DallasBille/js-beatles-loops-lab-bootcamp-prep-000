@@ -4,7 +4,7 @@ function theBeatlesPlay(musicians,instruments){
   //contains a forloop which loops over the array of musicians.
   //first time through the loop should create a string using the first index of the musicians array, and the first index of the musicians array.
   var beatle=[];
-  for (let i=0;i<4;i++){
+  for (let cart=0;cart<4;cart++){
     beatle.push(`${musicians[i]} plays ${instruments[i]}`);
   }
   return beatle;

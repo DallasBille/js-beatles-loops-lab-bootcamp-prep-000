@@ -17,6 +17,7 @@ function theBeatlesPlay(musicians,instruments){
      }
       return array;    
   }
+<<<<<<< HEAD
   function iLoveTheBeatles(n){
     var array=[];
     do{(n++);
@@ -25,6 +26,16 @@ function theBeatlesPlay(musicians,instruments){
     }
   
     while (n<15);
+=======
+  function iLoveTheBeatles(){
+    var array=[];
+    var i=0;
+    do{
+      array.push("I love the Beatles!");
+  
+      }
+    while (i<15,i++);
+>>>>>>> 0dcd3d2abd70677fc8d22f800fd14c1955dd739e
     
 
      return array;
